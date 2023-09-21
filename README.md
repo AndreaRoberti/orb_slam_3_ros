@@ -8,6 +8,13 @@
 
 ORBSLAM3 adapted for Ubuntu 20 and ROS Noetic if neccesary.
 
+
+```bash
+export ROS_PACKAGE_PATH=${ROS_PACKAGE_PATH}:/your_path/ORB_SLAM3_NOETIC/Examples/ROS
+./build_ros.sh 
+rosrun ORB_SLAM3 RGBD Vocabulary/ORBvoc.txt Examples/ROS/ORB_SLAM3/new_realsense.yaml
+```
+
 # Install modified Pangolin
 I added Pangolin version compatible with Ubuntu 20 and ORB_SLAM3, so, we need to install it.
 
